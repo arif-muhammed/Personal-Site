@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARİF MUHAMMED</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7bc12dbe39.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <div id="header">
+        <div class="container">
+            <nav>
+                <div style="display: flex; align-items: center;">
+                    <img src="images/logo.png" style="width: 30px; margin-right: 0px;">
+                    <p style="width: 75px;">ARİF</p>
+                  </div>
+                  
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#city">City</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#login">Login</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h3>Hello , I'm <span>Arif Muhammed</span></h3>
+                <h2>(Computer Engineer)</h2>
+                <br><h4> | Programmer & Web Developer | </h4>
+
+
+                
+            </div>
+        </div>
+     </div>
+     <!-- -------------about--------------- -->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/background1.png" style="width: 300px;">
+                </div>
+                <div class="about-col-2">
+                     <h2 class="sub-title"><strong>About Me</h2></strong>
+                     <p>My name is Arif , I am from Syria and a student in computer engineering and as a computer engineer with a deep interest in emerging AI technologies , I am eager to make a meaningful contribution to both the current and future technological revolutions .</p>
+
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('courses')">Courses</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Design & Development</span><br>Creation and development of websites in various languages .</li>
+                            <li><span>Writing Codes</span><br>| Html , Css , Javascript , C++ , C# , Python | .</li>
+                            <li><span>Languages</span><br>| Kurdish , Arabic , English , Turkish | .</li>
+                            <li><span>keyboard speed</span><br>Fast typing on the keyboard at a rate of 40 wpm	.</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="courses">
+                        <ul>
+                            <li><span>2022</span><br>DS 21 - Digital Skills Institution .</li>
+                            <li><span>2023</span><br>The Complete 2023 Web Development Bootcamp(HTML, CSS, Javascript, Node, React, MongoDB, Web3 and DApps) .</li>
+                            <li><span>2023</span><br>Beginning C++ Programming - From Beginner to Beyond .</li>
+                            <li><span>2023</span><br>Complete C# Masterclass .</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2014-2017</span><br>High School .</li>
+                            <li><span>2017-2021</span><br>University Entrance Examination .</li>
+                            <li><span>2022</span><br>Starting At University .</li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- ----------services--------- -->
+     <div id="services">
+        <div class="container">
+            <h2 class="sub-title"><strong>My Services</h2></strong>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-computer"></i>
+                    <h2>Web Design</h2>
+                    <p>Creation and development of websites in various languages .</p>
+                    
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Work Environments</h2>
+                    <p>| Html , Css , Javascript , C++ , C# , Python |</p>
+                    
+                </div>
+            </div>
+        </div>
+     </div>
+
+    <!-------------city------------>
+    <div id="city">
+        <div class="container">
+            <h2 class="sub-title"><strong>My City</h2></strong>
+            <div class="city-list">
+                <div class="city">
+                    <img src="images/a1.jpg">
+
+                    <div class="layer">
+                        <h3>Aleppo Citadel :</h3>
+                        <p>Aleppo Citadel A fortified palace dating back to the Middle Ages , is one of the oldest and largest castles in the world.</p>
+                    </div>
+                </div>
+
+                <div class="city">
+                    <img src="images/a2.png">
+                    <div class="layer">
+                    <h3>Al-Rahman Mosque :</h3>
+                    <p>This mosque is distinguished by its distinctive building method, and it is one of the unique mosques in construction .</p>
+                </div>
+                </div>
+
+                <div class="city">
+                    <img src="images/a3.jpg">
+                    <div class="layer">
+                    <h3>Aleppo International Stadium:</h3>
+                    <p>is considered one of the largest stadiums in the world, with a capacity of 75,000 spectators .</p>
+                </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!----------------contact------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"><strong>Contact Me</h1></strong>
+                    <p><i class="fa-solid fa-envelope"></i>arif.muhammed.ds21@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 050-29-11-1899</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/arif-muhammed-10fcb1899/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/arif-muhammed/arif-muhammed" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        
+                        
+                        
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email"  placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Sumbit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-----------------login------------------------>
+        <div id="login">
+             <div class="container">
+                <div class="form-box">
+                    <h1 id="title">Sign Up</h1>
+                    <form>
+                         <div class="input-group">
+                            <div class="input-field" id="nameField">
+                                <i class="fa-solid fa-user"></i>
+                                <input class="input-field" type="text" placeholder="Name" >
+                            </div>
+
+                            <div class="input-field">
+                                <i class="fa-solid fa-envelope"></i>
+                                <input type="email" placeholder="Email">
+                            </div>
+
+                            <div class="input-field">
+                                <i class="fa-solid fa-lock"></i>
+                                <input type="password" placeholder="password">
+                            </div>
+                            <p>Forgotten Your Password ? <a href="#">Click Here !</a></p>
+                         </div>
+                         <div class="btn-field">
+                            <button type="button" id="signupBtn">Sign up</button>
+                            <button type="button" id="signinBtn" class="disable">Sign in</button>
+                         </div>
+                    </form>
+                </div>
+             </div>
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="copyright">
+            <p>copyright © Arif Muhammed <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwpSxpeLAt6v2eqoE4TDJYWOkq9Touo0AOWQP_zfMRggLd64R7dvQnc45ptg-RgN2bvsA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => { 
+            msg.innerHTML = "Messgae sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <script>
+    let signupBtn = document.getElementById("signupBtn");
+    let signinBtn = document.getElementById("signinBtn");
+    let nameField = document.getElementById("nameField");
+    let title = document.getElementById("title");
+
+    signinBtn.onclick = function(){
+        nameField.style.maxHeight = "0";
+        title.innerHTML = "sign In";
+        signupBtn.classList.add("disable");
+        signinBtn.classList.remove("disable");
+    }
+    signupBtn.onclick = function(){
+        nameField.style.maxHeight = "60px";
+        title.innerHTML = "sign Up";
+        signupBtn.classList.remove("disable");
+        signinBtn.classList.add("disable");
+    }
+  </script>
+
+</body>
+</html>
